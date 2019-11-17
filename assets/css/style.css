@@ -1,0 +1,319 @@
+.main{
+  width: 100%; 
+  
+}
+.whitespace{
+    background-color: #ffffff;
+    width: 5%;
+    height: 80px;
+    float: left;
+}
+h1{
+    background-color: #4aaaa5;
+    height: 40px;
+    width: 250px;
+    margin: 0;
+    padding: 20px;
+    padding-left: 30px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    float: left;
+    font-size: 32px;
+    font-weight: bolder;
+
+   
+}
+
+
+@media only screen and (max-width: 640px){
+    
+    .whitespace{
+        width: 0%;
+    }
+
+    h1 {
+        position:static;
+        width: 96%;
+        text-align:center;
+        padding-left:0px;
+    }
+
+    .wBack{
+        width:100%;
+        height: 166px;
+        background-color:white;
+      
+    }
+    .headerbar{
+        width:95%;
+    }
+    .contactLink{
+        
+        position:relative;
+        
+        width:20%;
+       
+    }
+
+    .portfolioLink{
+        
+        position:relative;
+        width:20%;
+        
+    }
+
+    .aboutLink{
+        
+        position: relative;
+        width:20%;
+        
+    }
+
+    div.content{
+        width:85%;
+    }
+    
+    .aboutBorder{
+        width:500px;
+    }
+    .innerContent{
+        width:500px;
+    }
+}
+
+.headerbar{
+    
+    background-color:#ffffff;
+    border-bottom: 2px solid  #cccccc;
+    height: 80px;
+    color: #777777;
+    
+   
+   
+}
+
+
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    margin: 0 !important;
+    
+}
+
+
+
+div.aboutLink{
+    
+    top: 31px;
+    right: 30px;
+    float: right;
+    font-weight: 700;
+    padding: 20px;
+    
+}
+
+div.portfolioLink{
+    
+    top: 31px;
+    right: 30px;
+    float: right;
+    font-weight:700;
+    padding: 20px;
+}
+
+div.contactLink{
+ 
+    top: 31px;
+    right: 30px;
+    float: right;
+    font-weight:700;
+    padding: 20px;
+}
+
+h2{
+    position: relative;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 32px;
+    padding-left: 33px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight:bolder;
+    
+
+}
+.content{
+    position: relative;
+    left: 3%;
+    background-color: #ffffff;
+    margin: 30px;
+    border: solid #dddddd;
+    border-width: 1px;
+    padding-right: 13px;
+    width: 960px;
+    height: 650px;
+    font-size: 24px;
+    line-height: 30px;
+    float: left;
+
+}
+
+
+.innerContent{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+}
+
+p{
+    padding-left: 33px;
+}
+.aboutBorder{
+
+    margin:auto;
+    border: solid #dddddd;
+    border-width: 2px;
+    width: 93%;
+
+}
+.profileImage{
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 33px;
+}
+
+#bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: -1;
+}
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+    z-index: -1;
+}
+
+.shifttoright{
+    position: relative;
+    left: 5%;
+}
+
+
+
+
+
+.labels{
+    position: relative;
+    float: left;
+    width: 33.33%;
+    color: #ffffff;
+    height: 900px;
+    width: 960px;
+   
+}
+
+.portImg{
+    
+    float: left;
+    width: 20%;
+    padding: 5px;
+    padding-right: 2px;
+    
+}
+
+.portImg2{
+    
+   clear: both;
+    float: left;
+    width: 20%;
+    padding: 5px;
+    padding-right: 2px;
+}
+
+.portImg3{
+    
+    
+     float: left;
+     width: 20%;
+     padding: 5px;
+     padding-right: 2px;
+ }
+
+.portImg4{
+    clear: both;
+    float: left;
+    width: 20%;
+    padding: 5px;
+    padding-right: 2px;
+}
+
+
+.imgtext1{
+    position: absolute;
+    left: 20px;
+    top: 105px;
+    
+}
+
+.imgtext2{
+    position: absolute;
+    left: 220px;
+    top: 105px;
+}
+
+.imgtext3{
+    position: absolute;
+    left: 20px;
+    top: 253px;
+}
+
+.imgtext4{
+    position: absolute;
+    left: 220px;
+    top: 253px;
+}
+
+.imgtext5{
+    position: absolute;
+    left: 20px;
+    top: 400px;
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4%;
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: small;
+}
+
+
+
+.rightabovefooter{
+    
+   
+    
+    width: 100%;
+    height: 20%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center bottom;
+   
+}
