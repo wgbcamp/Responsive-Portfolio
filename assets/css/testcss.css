@@ -2,8 +2,13 @@
     padding: 0px;
 }
 
+main{
+    position: relative;
+}
+
 body{
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/beige-tiles.png")
+    
 }
 
 .topnav{
@@ -105,7 +110,7 @@ CONTENT vvvvvv
 
 
 #blueFooter{
-    position: fixed;
+    position: sticky;
     bottom: 4%;
     height: 1%;
     background-color:#4aaaa5;
@@ -117,6 +122,7 @@ CONTENT vvvvvv
 #copyrightFooter{
     position: fixed;
     bottom: 0;
+    left: 0;
     height: 4%;
     background-color:gray;
     width: 100%;
