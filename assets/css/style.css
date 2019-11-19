@@ -4,27 +4,32 @@
 }
 .whitespace{
     background-color: #ffffff;
-    width: 5%;
+    width: 33%;
     height: 80px;
     float: left;
 }
 h1{
     background-color: #4aaaa5;
     height: 40px;
-    width: 250px;
+    width: 33%;
     margin: 0;
     padding: 20px;
     padding-left: 30px;
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
     float: left;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: bolder;
 
    
 }
 
-
+@media only screen and (max-width: 768px){
+    .headerbar{
+        width:100px;
+        background-color: yellow;
+    }
+}
 @media only screen and (max-width: 640px){
     
     .whitespace{
@@ -82,10 +87,11 @@ h1{
 }
 
 .headerbar{
-    
+    float:left;
     background-color:#ffffff;
     border-bottom: 2px solid  #cccccc;
     height: 80px;
+    width:33%;
     color: #777777;
     
    
