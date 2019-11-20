@@ -186,12 +186,21 @@ Portfolio CSS
     width: 33.33%;
     color: #ffffff;
     height: 900px;
-    width: 960px;
+    width: 500px;
     padding-left: 20px;
+    padding-top: 20px;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
    
 }
 
+.portImgx{
+    
+    float: left;
+    width: 20%;
+    padding: 5px;
+    padding-right: 190px;
+    
+}
 .portImg{
     
     float: left;
@@ -207,7 +216,7 @@ Portfolio CSS
     float: left;
     width: 20%;
     padding: 5px;
-    padding-right: 2px;
+    padding-right: 190px;
 }
 
 .portImg3{
@@ -231,32 +240,32 @@ Portfolio CSS
 .imgtext1{
     position: absolute;
     left: 35px;
-    top: 105px;
+    top: 130px;
     
 }
 
 .imgtext2{
     position: absolute;
-    left: 235px;
-    top: 105px;
+    left: 330px;
+    top: 130px;
 }
 
 .imgtext3{
     position: absolute;
     left: 35px;
-    top: 253px;
+    top: 273px;
 }
 
 .imgtext4{
     position: absolute;
-    left: 235px;
-    top: 253px;
+    left: 330px;
+    top: 273px;
 }
 
 .imgtext5{
     position: absolute;
     left: 35px;
-    top: 400px;
+    top: 415px;
 }
 
 
@@ -298,7 +307,7 @@ Portfolio CSS
 
     .content{
         
-        margin-left: 5%;
+        margin-left: 4.5%;
         width: 90%;
         height: 900px;
         margin-bottom: 200px;
@@ -322,9 +331,9 @@ Portfolio CSS
     .profileImage{
         padding: 35px;
         float: left;
-        width: 85%;
-        height: 60%;
-        padding-left: 7.5%;
+        width: 320px;
+        height: 415px;
+        padding-left: 12%;
     }
     
     #imageText{
