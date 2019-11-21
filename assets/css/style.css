@@ -103,7 +103,9 @@ CONTENT vvvvvv
 .profileImage{
     padding-top: 35px;
     padding-left: 35px;
-    padding-right: 15px;
+    padding-right: 30px;
+    padding-bottom:10px;
+    width: 200px;
     float: left;
     color: pink;
 }
@@ -381,7 +383,9 @@ Portfolio CSS
         float:left;
     }
 
-    
+    #imageText{
+        font-size:22px;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 980px){
